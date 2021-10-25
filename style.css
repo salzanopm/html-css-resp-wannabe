@@ -74,16 +74,17 @@ img {
 
 /* SOLUTION */
 
-@media screen and (max-width: 420px) {  
+@media screen and (max-width: 419px) {  
+
+
   .row {
     width: 100%;
     display: flex;
     float: none;
     flex-direction: column;
+    margin-top: 20px;
   }
   img {
-    min-width: 30px;
-    min-height: 30px;
     max-width: 100%;
     max-height: calc(100% - 60px);
   }
